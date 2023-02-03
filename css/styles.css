@@ -900,7 +900,7 @@ input[type="checkbox"] {
 /*     Conclusion     */
 /**********************/
 .basic-5 {
-    padding-top: 4.5rem;
+    /* padding-top: 4.5rem; */
     padding-bottom: 7.5rem;
     /* background: url("../images/conclusion-background.jpg") center center no-repeat; */
     background-size: cover;
