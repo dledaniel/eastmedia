@@ -913,7 +913,7 @@ input[type="checkbox"] {
 .footer {
     padding-top: 6rem;
     padding-bottom: 3rem;
-    background: linear-gradient(rgba(255, 255, 255, 1), #e3f4b8);
+    /* background: linear-gradient(rgba(255, 255, 255, 1), #e3f4b8); */
     text-align: center;
 }
 
