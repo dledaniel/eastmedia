@@ -3,26 +3,6 @@ import AppFooter from "../components/AppFooter.astro";
 import AppHeader from "../components/AppHeader.astro";
 ---
 
-<style>
-    @font-face {
-    font-family: "DRPublik";
-    src: url(./fonts/DRPublik-Regular.woff2);
-    font-weight: 400;
-  }
-  
-@font-face {
-    font-family: "DRPublik";
-    src: url(./fonts/DRPublik-Bold.woff2);
-    font-weight: 700;
-  }
-  
-@font-face {
-    font-family: "DRPublik";
-    font-style: italic;
-    src: url(./fonts/DRPublik-Italic.woff2);
-    font-weight: 400;
-  }
-</style>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -32,6 +12,12 @@ import AppHeader from "../components/AppHeader.astro";
         <link rel="icon" href="/favicon.png" />
         <meta name="generator" content={Astro.generator} />
         <title>East Media | Hjem</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,700&display=swap" rel="stylesheet">
+
+
     </head>
     <body class="bg-gray-900">
         <AppHeader />
@@ -48,7 +34,7 @@ import AppHeader from "../components/AppHeader.astro";
 </html>
 <style>
     html {
-        font-family: DRPublik, sans-serif;
+        font-family: 'Bricolage Grotesque', sans-serif;
         scroll-behavior: smooth;
     }
 
