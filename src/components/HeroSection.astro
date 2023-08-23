@@ -1,0 +1,63 @@
+---
+import Container from "./Container.astro"
+
+---
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-20">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-blue-700 to-primary"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-primary to-indigo-600"></div>
+    </div>
+    <Container>
+        <div class="relative pt-36 ml-auto">
+            <div class="lg:w-2/3 text-center mx-auto">
+                <h1 class="text-white font-bold text-5xl md:text-6xl xl:text-7xl">Videoer er vores
+                    <span class="text-white">speciale.</span></h1>
+                <p class="mt-8 text-gray-300">Videoformatet har overtaget sociale medier, og hos East Media forstår vi, hvad det betyder. Vi faciliterer virksomheders tilpasning til denne udvikling ved at levere videoindhold, der taler til den moderne forbruger.</p>
+                <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                    <a href="mailto:daniel@eastmedia.dk"
+                        class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                        <span class="relative text-base font-bold text-gray-900 px-12">Kontakt</span>
+                    </a>
+                </div>
+            </div>
+            <div
+                class="py-8 mt-16 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 border-y border-gray-800">
+                <div class="text-center">
+                    <h4 class="text-lg font-semibold text-white">+300.000</h6>
+                        <p class="mt-2 text-gray-500">Likes</p>
+                </div>
+                <div class="text-center">
+                    <h4 class="text-lg font-semibold text-white">+6.000.000</h6>
+                        <p class="mt-2 text-gray-500">Organiske visninger</p>
+                </div>
+                <div class="text-center">
+                    <h4 class="text-lg font-semibold text-white">+6000</h6>
+                        <p class="mt-2 text-gray-500">Kommentarer</p>
+                </div>
+            </div>
+            <div class="mt-16 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5">
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/kommune.svg" class="h-12 w-auto mx-auto" loading="lazy"
+                        alt="client logo" width="" height="" />
+                </div>
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/astralis.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo"
+                        width="" height="" />
+                </div>
+                <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/radikale.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo"
+                        width="" height="" />
+                </div>
+                <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/david.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo"
+                        width="" height="" />
+                </div>
+                <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/marstudio.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo"
+                        width="" height="" />
+                </div>
+            </div>
+        </div>
+    </Container>
+</div>
